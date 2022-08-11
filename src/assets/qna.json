@@ -71,7 +71,7 @@
   },
   {
     "question": "Dea algustäht on",
-    "answers": ["D", "Vastus A", "Vastus D", "Answers"],
+    "answers": ["D", "Vastus 'A'", "Vastus 'D'", "A"],
     "answerIndex": 1
   },
   {
