@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Mis on laagriarsti lemmik abivahend",
+    "answers": ["Kirves", "Haamer", "Saag", "Laste pisarad"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Esimene laagrisuvi oli aastal",
+    "answers": ["1998", "2000", "1999", "1997"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Eia on",
+    "answers": ["Luts", "Laser", "Luts II", "RS Aero"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Vangliin inglise keeles",
+    "answers": ["Tainter line", "Painter line", "Tainter rope", "Leinter line"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Rannamaja ehitati ümber aastal",
+    "answers": ["2018", "2019", "2017", "2016"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Levinuim hüdrostaate tootev firma",
+    "answers": ["Ikaros", "Hammar", "Albatross", "Viking"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Laagrisärgi värv aastal 2014",
+    "answers": ["Kollane", "Oranž", "Punane", "Sinine"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Merevalvekeskus asub",
+    "answers": ["Tallinnas", "Kuressaares", "Paldiskis", "Haapsalus"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Esimene ehitis laagris oli",
+    "answers": ["Rannamaja", "Suurlaev", "Küna", "Vetsud"],
+    "answerIndex": 4
+  },
+  {
+    "question": "JRCC tähendab",
+    "answers": [
+      "Joint Rescue and Command Centre",
+      "Joint Resolve and Coordination Centre",
+      "Joint Rescue and Coordination Centre",
+      "Joint Rescue and Central Command"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "Standard signaalrakett põleb",
+    "answers": ["30s", "40s", "45s", "60s"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Värskeim optimist laagris on",
+    "answers": ["Lea", "Iyru", "Dea", "Ave"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mis puri on \"genu\"",
+    "answers": ["Gennaker", "Genoa", "Spinnaker", "Groot"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Dea algustäht on",
+    "answers": ["D", "Vastus A", "Vastus D", "Answers"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Mis sõlmekategoorias on paalsteek",
+    "answers": ["Aasad", "Steegid", "Silmused", "Ühendavad sõlmed"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Sinise lutsu nimi",
+    "answers": ["Lii", "Mai", "Kai", "Ene"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Muhu merelaager lõpetas selle tõttu tegevuse",
+    "answers": [
+      "Sõjaväebaasi ehitamine",
+      "Eelarve ületamine",
+      "Laevahukk",
+      "Maade tagastamine"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Marke kasutatakse otste",
+    "answers": [
+      "Lõpetamiseks",
+      "Ühendamiseks",
+      "Kinnitamiseks",
+      "Libestamiseks"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Kes neist pole olnud merelaagri sponsor",
+    "answers": ["Baltic Workboats", "Viking", "Emsa", "Comet"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Punane putka lammutati aastal",
+    "answers": ["2019", "2020", "2021", "2018"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mereleksikoni autor on",
+    "answers": [
+      "Naviagre OÜ",
+      "Merendusterminoloogia-komisjon",
+      "Eesti Mereakadeemia",
+      "Eesti Entsüklopeediakirjastus"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Lea toodi laagrisse aastal",
+    "answers": ["2016", "2017", "2018", "2015"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Anu eelmine nimi oli",
+    "answers": ["Liblikas", "Parm", "Sääsk", "Herilane"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Küna lammutati aastal",
+    "answers": ["2013", "2012", "2014", "2015"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Simiste merelaager lõpetas tegevuse aastal",
+    "answers": ["1989", "1998", "1972", "1981"],
+    "answerIndex": 1
+  }
+]
