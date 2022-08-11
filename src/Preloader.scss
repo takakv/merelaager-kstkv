@@ -1,0 +1,11 @@
+.Preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Preloader-logo {
+  height: 80vh;
+  z-index: 10;
+}
