@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
   background: center url("assets/images/bg.png");
@@ -22,4 +25,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
