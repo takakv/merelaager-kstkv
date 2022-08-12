@@ -11,44 +11,6 @@ import winSound from "./assets/sounds/std_win.mp3";
 import newSound from "./assets/sounds/std_new_question.mp3";
 import thinkSound from "./assets/sounds/std_think.mp3";
 
-/*
-const continueGame = () => {
-  useEffect(() => {
-    window.addEventListener("keydown", downHandler);
-    window.addEventListener("keyup", upHandler);
-    // Remove event listeners on cleanup
-    return () => {
-      window.removeEventListener("keydown", downHandler);
-      window.removeEventListener("keyup", upHandler);
-    };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
-}
-*/
-
-/*
-const useKeyPress = (targetKey) => {
-  const [keyPressed, setKeyPressed] = useState(false);
-
-  const downHandler = ({key}) => {
-    if (key === targetKey) setKeyPressed(true);
-  }
-
-  const upHandler = ({key}) => {
-    if (key === targetKey) setKeyPressed(false);
-  }
-
-  useEffect(() => {
-    window.addEventListener("keydown", downHandler);
-    window.addEventListener("keyup", upHandler);
-    // Remove event listeners on cleanup
-    return () => {
-      window.removeEventListener("keydown", downHandler);
-      window.removeEventListener("keyup", upHandler);
-    };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
-}
-*/
-
 const GameScene = () => {
   const [qIndex, setQIndex] = useState(0);
   const [correctIndex, setCorrectIndex] = useState([-1, -1]);
@@ -56,16 +18,22 @@ const GameScene = () => {
   const [playNewSound] = useSound(newSound);
   const [playThinkSound, { stop }] = useSound(thinkSound);
 
+  const startQuestion = () => {
+    playNewSound();
+
+    setTimeout(() => {
+      playThinkSound();
+    }, 5500);
+  };
+
+  startQuestion();
+
   const moveForward = (e: KeyboardEvent) => {
     if (e.key === "Enter") {
       window.removeEventListener("keydown", moveForward);
       setQIndex(qIndex + 1);
       setCorrectIndex([-1, -1]);
-      playNewSound();
-
-      setTimeout(() => {
-        playThinkSound();
-      }, 5500);
+      startQuestion();
     }
   };
 
