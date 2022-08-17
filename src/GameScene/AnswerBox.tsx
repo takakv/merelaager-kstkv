@@ -10,6 +10,8 @@ interface AnswerBoxProps {
   questionIndex: number;
   index: number;
   answer: string;
+  halfLifelineCount: number;
+  onHalfLifelineClick: () => void;
   onClick: () => void;
 }
 
@@ -17,6 +19,8 @@ const AnswerBox = ({
   questionIndex,
   index,
   answer,
+  halfLifelineCount,
+  onHalfLifelineClick,
   onClick,
 }: AnswerBoxProps) => {
   const [playLoseSound] = useSound(loseSound);
@@ -31,6 +35,11 @@ const AnswerBox = ({
   }, [questionIndex]);
 
   const handleOnClick = () => {
+    if (halfLifelineCount === 0 || halfLifelineCount === 1) {
+      onHalfLifelineClick();
+      setClassName(`${className} dimmed`);
+      return;
+    }
     if (isCorrect === -1) return;
     onClick();
 

@@ -52,6 +52,10 @@
     filter: hue-rotate(90deg);
   }
 
+  &.dimmed {
+    filter: grayscale(1);
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -74,5 +78,24 @@
     max-width: 60%;
     padding: 20px;
     color: #fff;
+  }
+}
+
+.Lifelines {
+  display: flex;
+
+  img {
+    width: 120px;
+    margin: 0 2em;
+    transition: 2ms ease-in-out scale;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+
+  .dimmed {
+    filter: grayscale(1);
   }
 }
