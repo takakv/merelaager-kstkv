@@ -1,13 +1,43 @@
 [
   {
+    "question": "Esimene laagrisuvi oli aastal",
+    "answers": ["1998", "2000", "1999", "1997"],
+    "answerIndex": 3
+  },
+  {
     "question": "Mis on laagriarsti lemmik abivahend",
     "answers": ["Kirves", "Haamer", "Saag", "Laste pisarad"],
     "answerIndex": 1
   },
   {
-    "question": "Esimene laagrisuvi oli aastal",
-    "answers": ["1998", "2000", "1999", "1997"],
+    "question": "MRSC tähendus",
+    "answers": [
+      "Maritime Surveillance Centre",
+      "Maritime Rescue Sub-Centre",
+      "Maritime Rescue Surveillance Centre",
+      "Maritime Rescue & Search Centre"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mis aastal valmis Merelaagri uus koduleht",
+    "answers": ["2019", "2018", "2021", "2020"],
+    "answerIndex": 4
+  },
+  {
+    "question": "JRCC Tallinna telefoninumber",
+    "answers": ["169 1224", "619 2114", "619 1224", "169 2114"],
     "answerIndex": 3
+  },
+  {
+    "question": "MRSC Kuressaare telefoninumber",
+    "answers": ["440 1313", "400 1300", "444 1303", "440 1300"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Mitu aastat (2022 k.a) on olnud Pärtel abikasvataja",
+    "answers": ["1", "2", "0", "3"],
+    "answerIndex": 2
   },
   {
     "question": "Eia on",
@@ -61,8 +91,13 @@
   },
   {
     "question": "Värskeim optimist laagris on",
-    "answers": ["Lea", "Iyru", "Dea", "Ave"],
+    "answers": ["Lea", "Epp", "Dea", "Ave"],
     "answerIndex": 2
+  },
+  {
+    "question": "Epu teine nimi",
+    "answers": ["Yru", "Iru", "Iyru", "Yiru"],
+    "answerIndex": 3
   },
   {
     "question": "Mis puri on \"genu\"",
@@ -117,12 +152,17 @@
   {
     "question": "Mereleksikoni autor on",
     "answers": [
-      "Naviagre OÜ",
+      "Navigare OÜ",
       "Merendusterminoloogia-komisjon",
       "Eesti Mereakadeemia",
       "Eesti Entsüklopeediakirjastus"
     ],
     "answerIndex": 4
+  },
+  {
+    "question": "Leho esimene aasta juhatajana oli",
+    "answers": ["2011", "2012", "2013", "2014"],
+    "answerIndex": 3
   },
   {
     "question": "Lea toodi laagrisse aastal",
@@ -143,5 +183,55 @@
     "question": "Simiste merelaager lõpetas tegevuse aastal",
     "answers": ["1989", "1998", "1972", "1981"],
     "answerIndex": 1
+  },
+  {
+    "question": "Mitu juuksevärvi on Taanielil laagris olles olnud",
+    "answers": ["2", "3", "4", "5"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mitu kellalööki on häirekell",
+    "answers": ["1+5634", "1+5432", "1+6584", "1+5432"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Mis aastast on Krissu esimene laagrisärk",
+    "answers": ["2009", "2010", "2011", "2012"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Mis on Martini purjelaua purje suurus",
+    "answers": ["5.6m^2", "8.5m^2", "Martinil on kaks purje", "4.1m^2"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Mis kell tõusevad kasvatajad",
+    "answers": ["8:25", "Pool tundi enne lapsi", "7:30", "8"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mis aastal ostis Ahto jäätisemasina",
+    "answers": ["2019", "2020", "2018", "2021"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Mis aastal valiti merelaager aasta noortelaagriks",
+    "answers": ["2017", "2018", "2016", "2019"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Kuidas saadakse abikasvatajaks",
+    "answers": [
+      "Tutvuste kaudu",
+      "Võites selle mängu",
+      "Pugedes",
+      "Ei tea isegi"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Kes projekteeris uue sauna",
+    "answers": ["Saunapoisid OÜ", "Ahto", "Lempa (Ahto vend)", "Saunamaailm"],
+    "answerIndex": 2
   }
 ]
